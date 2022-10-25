@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'josefin  Sans' sans-serif ;
+}
+
+form{
+     height: 100vh;
+     background-image:url('images/biriyani1\ \(1\).gif'); 
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     backdrop-filter: blur(30px);
+}
+  
+ .menu{
+     max-width: 800px;
+     height: 470px;
+     padding: 40px;
+     /* background-color: rgb(219, 164, 26);  */
+     border-radius: 8px;
+     border: 3px solid rgb(255, 0, 251); 
+     backdrop-filter: blur(40px);
+     box-shadow: 10px 10px 30px rgb(231, 231, 142);
+
+     
+ }
+
+ h1{
+    background-color:white;
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(37, 117, 0); 
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px ;
+    border: 4px solid rgb(255, 0, 217);
+    
+ }
+ label{
+    color:rgb(228, 217, 217); 
+    font-size: 17px;
+    font-weight: 200;
+    text-align: center;
+     /* display: block;  */
+ }
+
+ button{
+    transform: translatex(130px);
+    border: none;
+    width: 70px;
+    padding: 10px;
+    background-color: rgb(0, 110, 48);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+ }
+
+ input{
+   border-radius: 4px;
+   width: 230px;
+   padding: 2px;
+ }
+
